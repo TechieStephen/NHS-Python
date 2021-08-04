@@ -9,6 +9,5 @@ class Dog():
 
     def play(self):
         print("fetch and catch")
-        print("fetch and catch")
 
 
