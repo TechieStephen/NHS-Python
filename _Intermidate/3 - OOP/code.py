@@ -1,26 +1,43 @@
-class Animal:
-    def __init__(self, name, no_legs):
+class Chef:
+    def __init__(self, name, age):
         self.name = name
-        self.no_legs = no_legs
+        self.age = age
 
-    def animal_sound(self):
-        print('the animal made a sound')
+    def show_details(self):
+        print(f"Name: {self.name} Age: {self.age}")
 
-class Dog(Animal):
-    def __init__(self, name, no_legs, sound):
-        Animal.__init__(self, name, no_legs)
-        self.sound = sound
+    def cook_rice(self):
+        print("Rice is available")
 
-    def eat(self):
-        print('The dog is eating a bone')
+    def bake_cake(self):
+        print("The cake is yummy")
 
-class Cat(Animal):
-    def __init__(self, name, no_legs):
-        super().__init__(name, no_legs,)
+class Nigeria_chef(Chef):
+    def __init__(self, name, age, state_of_origin):
+        super().__init__(name, age)
+        self.state_of_origin = state_of_origin
 
-dog1 = Dog('Bingo', 4, 35)
-dog1.animal_sound()
-dog1.eat()
-print(dog1.age)
+    def cook_jollof(self):
+        print("Jollof Rice sooo yummmy")
 
-cat1 = Cat('fgfg', 4)
+semi = Nigeria_chef('semi', 25, 'Lagos')
+semi.show_details()
+semi.cook_rice()
+semi.bake_cake()
+semi.cook_jollof()
+
+
+# class Nigeria_chef:
+#     def __init__(self, name, age, state_of_origin):
+#         self.name = name
+#         self.age = age
+#         self.state_of_origin = state_of_origin
+#
+#     def cook_rice(self):
+#         print("Rice is available")
+#
+#     def bake_cake(self):
+#         print("The cake is yummy")
+#
+#     def cook_jollof(self):
+#         print("Jollof Rice sooo yummmy")

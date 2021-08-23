@@ -1,5 +1,5 @@
 #Variables
-''''
+'''
 Variables are containers for storing or
 holding values
 
@@ -56,8 +56,8 @@ our_school
 our-school
 _8schools
 
+#Pascal Casing
 name_of_school
-
 totalStudents
 
 x = 5 == 1

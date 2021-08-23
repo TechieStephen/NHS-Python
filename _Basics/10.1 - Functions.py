@@ -8,7 +8,7 @@ performs a specific task.
 
 ---------------
 it's is a re-usable block of code.
-it elps you organize your code betterh
+it helps you organize your code better
 ----------------
 
 EXAMPLES OF FUNCTIONS
@@ -28,6 +28,7 @@ other examples are string functions
 -len(),
 index(),
 replace()
+print()
 
 LETS WRITE OUR OWN FUNCTIONS
 
