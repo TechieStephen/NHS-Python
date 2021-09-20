@@ -8,7 +8,7 @@ HOW TO CREATE A TUPLE
 coordinates = (4, 5)
 ///
 
-a unique feature about tuple is that the are immutable
+a unique feature about tuple is that they are immutable
 this means that once created a tuple can't be changed or
 modified. its more like a WYSIWYG
 
