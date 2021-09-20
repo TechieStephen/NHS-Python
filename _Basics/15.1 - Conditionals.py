@@ -65,7 +65,7 @@ otherwise
 ------------------------------
 
 i need a male or a tall female
-If you are a male or you are tall
+If you are a male or you are a tall female
     come to my office
 otherwise
     just sit where you are

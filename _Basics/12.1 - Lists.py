@@ -5,8 +5,9 @@ store a collection of information.
 Just image a variable that can hold multiple or
 many values or data...
 
+In Python lists are written with square brackets.
 ///code
-friends = ["Peter", "James", John]
+friends = ["Peter", "James", "John"]
 ///
 
 WHAT CAN YOU PUT INSIDE A LIST

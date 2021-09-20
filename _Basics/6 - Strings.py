@@ -1,4 +1,3 @@
-
 '''
 strings are one of the most popularly used
 data types in python

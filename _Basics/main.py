@@ -1,32 +1,55 @@
-#
-# #Area of rectangle
-# # length = 20
-# # breath = 10
-# # area = length * breath
-# # print(area)
-#
-# def area_of_rec(length, breath):
-#     area = length * breath
-#     print(area)
-#
-# area_of_rec(20, 10)
-# area_of_rec(8, 5)
-#
-# def area_of_tri(base, height):
-#     area = 1/2 * base * height
-#     print(str(area) + "cm")
-#
-# area_of_tri(2,8)
+#LISTS
 
-# def add(num1, num2):
-#     sum = num1 + num2
-#     return sum
+# friend1 = "James"
+# friend2 = "John"
+# friend3 = "Sarah"
+
+# friends = ["James", "John", "Sarah", "Stephen"]
+# print(friends)
+# print(friends[2])
+# print(friends[-1])
+# for item in friends:
+#       print(item)
+# print(friends[-1:-4])
+# print(friends[1:])
+
+# friends[0] = "Peter"
+# friends.append("Mike")
+# print(friends)
+
+# friends = ["James", "John", "Sarah", "Stephen"]
+#Check if Item Exists
+# if 'james' in friends:
+#     print('Yes')
+# else:
+#     print('Nope')
+# friends = ["James", "John", "Sarah", "Stephen"]
+
+# friends.append('Mike')
+# friends.insert(1, 'Bisi')
+# print(friends)
+
+# friends.pop(1)
+# friends.remove('John')
+# del friends
+
+# friends.clear()
+# friends = ["James", "John", "Sarah", "Stephen"]
 #
-# x = add(20, 50)
-# print(x)
+# # new_friends = friends.copy()
+# new_friends = list(friends)
+# new_friends[1] = "Peter"
+# print(friends)
+# print(new_friends)
 
-name = input("Enter your name: ")
-age = input("Enter your age: ")
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
 
-print("Your name is: " + name)
-print("Your age is: " + age)
+list1.extend(list2)
+
+# list3 = list1 + list2
+print(list1)
+
+
+
+

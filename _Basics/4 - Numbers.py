@@ -2,11 +2,11 @@ from math import *
 
 '''
 Numbers are one of the most popularly used data 
-types in python
+types
 
 -abs() - absolute value e.g abs(-5) returns 5
 -pow() - Raise to power e.g pow(3,2) returns 9 i.e 3**2 or 3^2
--max() - Returns the biggest of two numbers e.g max(4,6) returns 6
+-max() - Returns the biggest of two or more numbers e.g max(4,6) returns 6
 -min() - Returns the smallest of two numbers e.g max(4,6) returns 4
 -round() - round(3.4) returns 3 and round(3.7) returns 4
 -type()
